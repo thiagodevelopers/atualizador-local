@@ -3,7 +3,6 @@ object FrmAtualizacaoLocal: TFrmAtualizacaoLocal
   Top = 269
   BorderIcons = []
   BorderStyle = bsDialog
-  Caption = 'Atualiza'#231#227'o Local'
   ClientHeight = 27
   ClientWidth = 162
   Color = clBtnFace
@@ -25,9 +24,9 @@ object FrmAtualizacaoLocal: TFrmAtualizacaoLocal
     Height = 13
     Caption = 'Verificando Atualiza'#231#245'es...'
   end
-  object Timer1: TTimer
+  object TmAtualizacao: TTimer
     Interval = 5000
-    OnTimer = Timer1Timer
+    OnTimer = TmAtualizacaoTimer
     Left = 56
   end
 end
