@@ -75,7 +75,6 @@ var
 begin
   try
     nomeAplicacao := ParamStr(1);
-    nomeAplicacao := 'Administrativo.exe';
 
     //mudando o caption do label
     LbVerificandoAtualizacoes.Caption := 'Verificando Atualizações...';
@@ -126,7 +125,8 @@ begin
 
           HoraFechar := true;
           Close;
-        except
+        finally
+          WinExec( PAnsiChar(Client), SW_SHOW );
           Application.Terminate;
         end;
       end;

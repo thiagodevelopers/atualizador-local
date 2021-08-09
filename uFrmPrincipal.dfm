@@ -4,8 +4,8 @@ object FrmAtualizacaoLocal: TFrmAtualizacaoLocal
   BorderIcons = []
   BorderStyle = bsDialog
   Caption = 'Atualiza'#231#227'o Local'
-  ClientHeight = 26
-  ClientWidth = 147
+  ClientHeight = 27
+  ClientWidth = 162
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
