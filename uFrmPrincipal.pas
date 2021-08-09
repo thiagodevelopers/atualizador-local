@@ -45,7 +45,6 @@ end;
 procedure TFrmAtualizacaoLocal.TmAtualizacaoTimer(Sender: TObject);
 begin
   nomeAplicacao := ParamStr(1);
-  nomeAplicacao := 'Balcao.exe';
 
   //mudando o caption do label
   LbVerificandoAtualizacoes.Caption := 'Verificando Atualizações...';
